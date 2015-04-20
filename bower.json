@@ -1,0 +1,20 @@
+{
+  "name": "Avalanche: Function strip-unit",
+  "version": "2.0",
+  "homepage": "https://github.com/avalanchesass/avalanche_function_strip_unit",
+  "authors": [
+    "Markus Oberlehner"
+  ],
+  "description": "Strip the unit of a number",
+  "keywords": [
+    "SASS"
+  ],
+  "license": "GPL v2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
