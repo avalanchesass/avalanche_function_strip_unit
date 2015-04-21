@@ -1,13 +1,9 @@
-@if variable-exists(function-strip-unit-imported) == false {
-  /**
-   * @name strip-unit
-   * @level X.X.X.
-   * @description
-   *   avalanche-strip-unit($number)
-   */
-  @function avalanche-strip-unit($number) {
-    @return $number / ($number * 0 + 1);
-  }
-
-  $function-strip-unit-imported: true;
+/**
+ * @name strip-unit
+ * @level X.X.X.
+ * @description
+ *   avalanche-strip-unit($number)
+ */
+@function avalanche-strip-unit($number) {
+  @return $number / ($number * 0 + 1);
 }
