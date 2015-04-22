@@ -2,8 +2,8 @@
  * @name strip-unit
  * @level X.X.X.
  * @description
- *   avalanche-strip-unit($number)
+ *   strip-unit($number)
  */
-@function avalanche-strip-unit($number) {
+@function strip-unit($number) {
   @return $number / ($number * 0 + 1);
 }
