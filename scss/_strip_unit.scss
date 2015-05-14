@@ -2,7 +2,12 @@
  * @name strip-unit
  * @level X.X.
  * @description
- *   strip-unit($number)
+ *   Strip units from values
+ *
+ * @code [scss]
+ *   .foo {
+ *     line-height: strip-unit($font-size-s);
+ *   }
  */
 @function strip-unit($number) {
   @return $number / ($number * 0 + 1);
