@@ -1,14 +1,23 @@
-/**
- * strip-unit
- *
- * Strip units from values
- *
- * @level X.X.
- * @code [scss]
- * .foo {
- *   line-height: strip-unit($font-size-s);
- * }
- */
+/*---
+title:   strip-unit
+section: Function
+---
+
+Strip units from numbers.
+
+```css
+strip-unit($number)
+```
+
+```css
+.foo {
+  line-height: strip-unit(map-get($font-sizes, 'm'));
+}
+```
+*/
 @function strip-unit($number) {
-  @return $number / ($number * 0 + 1);
+  @if type-of($number) == 'number' and not unitless($number) {
+    @return $number / ($number * 0 + 1);
+  }
+  @return $number;
 }

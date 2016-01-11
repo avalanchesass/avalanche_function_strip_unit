@@ -1,15 +1,13 @@
 {
-  "name": "avalanche: Function strip-unit",
-  "version": "2.0.2",
-  "homepage": "https://github.com/avalanchesass/avalanche_function_strip_unit",
+  "name": "avalanche_function_strip_unit",
+  "description": "Strip units from numbers",
+  "version": "3.0.0",
   "authors": [
     "Markus Oberlehner"
   ],
-  "description": "Strip the unit of a number",
-  "keywords": [
-    "SASS"
-  ],
+  "homepage": "https://github.com/avalanchesass/avalanche_function_strip_unit",
   "license": "GPL v2",
+  "main": "scss/_strip_unit.scss",
   "ignore": [
     "**/.*",
     "node_modules",

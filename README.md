@@ -1,5 +1,5 @@
-# avalanche: Function strip-unit
-Strip the unit of a number  
+# avalanche_function_strip_unit
+Strip units from numbers  
 https://github.com/avalanchesass/avalanche_function_strip_unit
 
 ### Author
