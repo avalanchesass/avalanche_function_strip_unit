@@ -11,7 +11,7 @@ strip-unit($number)
 
 ```css
 .foo {
-  line-height: strip-unit(map-get($font-sizes, 'm'));
+  line-height: strip-unit(map-get($font-sizes, m));
 }
 ```
 */
