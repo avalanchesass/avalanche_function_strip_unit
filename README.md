@@ -2,6 +2,7 @@
 Strip units from numbers  
 https://github.com/avalanchesass/avalanche_function_strip_unit
 
+## About
 ### Author
 Markus Oberlehner  
 Twitter: https://twitter.com/MaOberlehner
