@@ -1,5 +1,5 @@
 {
-  "name": "avalanche_function_strip_unit",
+  "name": "avalanchesass_function_strip_unit",
   "description": "Strip units from numbers",
   "keywords": [
     "avalanche-package",

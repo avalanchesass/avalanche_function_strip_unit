@@ -1,4 +1,4 @@
-# avalanche_function_strip_unit
+# avalanchesass_function_strip_unit
 Strip units from numbers  
 https://github.com/avalanchesass/avalanche_function_strip_unit
 
