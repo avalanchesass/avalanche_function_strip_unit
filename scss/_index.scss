@@ -9,7 +9,6 @@ Strip units from numbers.
 ```css
 strip-unit($-number)
 ```
-
 ```css
 .foo {
   line-height: strip-unit(map-get($font-sizes, m));
