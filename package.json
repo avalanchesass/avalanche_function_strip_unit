@@ -2,7 +2,7 @@
   "name": "avalanchesass_function_strip_unit",
   "description": "Strip units from numbers",
   "keywords": [
-    "avalanche-package",
+    "avalanchesass-package",
     "eyeglass-module",
     "sass"
   ],
