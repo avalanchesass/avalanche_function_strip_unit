@@ -1,7 +1,18 @@
-# avalanche: Function strip-unit
-Strip the unit of a number  
-https://github.com/avalanchesass/avalanche_function_strip_unit
+# avalanchesass_function_strip_unit
+Strip units from numbers.
 
+## Install
+```
+npm install avalanchesass_function_strip_unit --save
+```
+
+## Basic usage
+```css
+/* Import the main file. */
+@import 'avalanchesass_function_strip_unit';
+```
+
+## About
 ### Author
 Markus Oberlehner  
 Twitter: https://twitter.com/MaOberlehner
